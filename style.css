@@ -78,12 +78,16 @@ footer p {
 
 
 @media (max-width: 414px) {
+    body {
+        box-sizing: border-box;
+    }
     h3 {
         font-size: 18px;
         margin-left: 20px;
         padding-top: 15px;
     }
     section {
+        box-sizing: border-box;
         display: block;
         margin-top: 70px;
     }
